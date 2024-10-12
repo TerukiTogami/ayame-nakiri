@@ -1,0 +1,33 @@
+{
+  "name": "ayame-nakiri",
+  "displayName": "Ayame Nakiri Theme",
+  "description": "Ayame Nakiri theme for VSCode",
+  "version": "1.0.0",
+  "publisher": "TerukiTogami",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TerukiTogami/ayame-nakiri"
+  },
+  "keywords": [
+    "theme",
+    "hololive",
+    "ayame nakiri",
+    "ayame",
+    "nakiri"
+  ],
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ayame Nakiri",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ayame Nakiri-color-theme.json"
+      }
+    ]
+  }
+}
